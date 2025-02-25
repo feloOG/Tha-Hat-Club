@@ -146,7 +146,6 @@ footer{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: transparent;
 }
 .div3rev{
     display: grid;
@@ -155,17 +154,10 @@ footer{
     gap: 50px;
     margin-bottom: 100px;
     width: 100%;
-    height: auto;
 }
 .divrev{
-    border: 1px solid transparent;
     text-align: center;
-    background-color: transparent;
     width: 100%;  
-}
-.ifrev{
-    width: 90%;
-    padding-left: 20px;
 }
 .boxvid{
     text-align: center;
@@ -179,18 +171,16 @@ footer{
     color: rgb(243, 232, 209);
     padding: 15px;
 }
+.ifrev{
+    width: 80%;
+}
+
+
 
 /* ------------------------------------------ACCESORIES------------------------------------------------- */
 
-.h1acc{
-    font-size: 3em;
-}
-.pacc1{
-    padding: 7%;
-    font-size: 1.1em;
-    text-shadow: 3px 3px 3px rgb(15, 15, 15);
-    text-align: center;
-}
+
+
 .h2acc{
     text-transform: uppercase;
     text-align: center;
@@ -199,12 +189,17 @@ footer{
     justify-content: center;
     text-shadow: 3px 3px 3px rgb(15, 15, 15);
 }
+.pacc1{
+    padding: 7%;
+    font-size: 1.1em;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+    text-align: center;
+}
 .divacc1{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-content: center;
-    text-align: center;
 }
 .cardbody{
     text-align: center;
@@ -212,7 +207,6 @@ footer{
 }
 .accimg{
     height: auto;
-    width: 100%;
     padding: 15%;
 }
 .pacc{
