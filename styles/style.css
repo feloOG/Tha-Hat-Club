@@ -101,20 +101,6 @@ footer {
   min-width: 50px;
 }
 
-/* ----------------------------------GENERALS----------------------------------------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Josefin Sans", serif;
-  color: rgb(243, 232, 209);
-}
-
-body {
-  background-color: white;
-  font-size: 32px;
-}
-
 /* ----------------------------------INDEX----------------------------------------- */
 .mainindex {
   align-content: center;
@@ -141,9 +127,11 @@ body {
 .divtalk1 {
   margin-bottom: 20%;
   margin-top: 5%;
+  color: rgb(243, 232, 209);
 }
 
 .h4ind {
+  color: rgb(243, 232, 209);
   text-transform: uppercase;
   text-align: center;
   margin-top: 12%;

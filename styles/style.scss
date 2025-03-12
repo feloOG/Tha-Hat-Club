@@ -3,21 +3,6 @@
 @use 'header';
 @use 'footer';
 
-
-/* ----------------------------------GENERALS----------------------------------------- */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Josefin Sans", serif;
-    color: rgb(243, 232, 209);;
-}
-body{
-    background-color: white;
-    font-size: 32px;
-}
-
 /* ----------------------------------INDEX----------------------------------------- */
 
 .mainindex{
@@ -29,7 +14,7 @@ body{
     max-width: 450px;
 }
 .h5hat{
-    color: rgb(243, 232, 209);
+    color: v.$text-color;
     font-size: 1.2em;
 }
 .divtalk{
@@ -41,8 +26,10 @@ body{
 .divtalk1{
     margin-bottom: 20%;
     margin-top: 5%;
+    color: v.$text-color;
 }
 .h4ind{
+    color: v.$text-color;
     text-transform: uppercase;
     text-align: center;
     margin-top: 12%;
@@ -78,7 +65,7 @@ body{
     background-color: rgba(37, 18, 0, 0.658);
     border-radius: 20px;
     box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
-    color: rgb(243, 232, 209);
+    color: v.$text-color;
     p{
        margin-top: 3%;
        font-size: 1em;
@@ -118,7 +105,7 @@ body{
     font-weight: bold;
 }
 .prev{
-    color: rgb(243, 232, 209);
+    color: v.$text-color;
     padding: 15px;
 }
 .ifrev{
