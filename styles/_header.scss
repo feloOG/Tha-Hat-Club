@@ -1,0 +1,46 @@
+@use './variable' as v;
+
+.logothc{
+    width: 25%;
+}
+header{ 
+    text-align: center;
+    padding: 10px 20px;
+    background-color: v.$bg-color;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+}
+nav ul li{
+    font-size: 1.8em;
+    padding: 15px;
+}
+.colnav{
+    background-color: rgba(37, 18, 0, 0.658);
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 0.5em;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.h1index{
+    margin-top: 3%;
+    font-size: 3em;
+}
+.mainindex{
+    align-content: center;
+    text-align: center;
+}
+.hatindex{
+    width: 25%;
+    max-width: 450px;
+}

@@ -1,0 +1,36 @@
+@use './variable' as v;
+
+@mixin p-desc($color){
+    color: $color;
+    padding: 7%;
+    font-size: 1.1em;  
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+    text-align: center;
+}
+@mixin h2($color){
+    color: $color;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 1.9em;
+    justify-content: center;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15); 
+}
+@mixin h1($color){
+    color: $color;
+    margin-top: 3%;
+    font-size: 3em;
+}
+
+
+
+
+.h1page{
+    @include h1(v.$text-color)
+}
+.h2tittle{
+    @include h2(v.$text-color);
+}
+.pdesc{
+    @include p-desc(v.$text-color);
+}

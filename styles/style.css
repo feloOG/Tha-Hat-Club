@@ -1,0 +1,397 @@
+.h1page {
+  color: rgb(243, 232, 209);
+  margin-top: 3%;
+  font-size: 3em;
+}
+
+.h2tittle {
+  color: rgb(243, 232, 209);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 6%;
+  font-size: 1.9em;
+  justify-content: center;
+  text-shadow: 3px 3px 3px rgb(15, 15, 15);
+}
+
+.pdesc {
+  color: rgb(243, 232, 209);
+  padding: 7%;
+  font-size: 1.1em;
+  text-shadow: 3px 3px 3px rgb(15, 15, 15);
+  text-align: center;
+}
+
+.logothc {
+  width: 25%;
+}
+
+header {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgba(97, 50, 19, 0.589);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+}
+
+nav ul li {
+  font-size: 1.8em;
+  padding: 15px;
+}
+
+.colnav {
+  background-color: rgba(37, 18, 0, 0.658);
+  border-radius: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h1index {
+  margin-top: 3%;
+  font-size: 3em;
+}
+
+.mainindex {
+  align-content: center;
+  text-align: center;
+}
+
+.hatindex {
+  width: 25%;
+  max-width: 450px;
+}
+
+footer {
+  background-color: rgba(97, 50, 19, 0.589);
+  text-align: center;
+  font-size: 1.9em;
+  padding: 5%;
+  box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+}
+
+.h3index {
+  color: rgb(243, 232, 209);
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+.indexnav2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.foota {
+  width: 15%;
+  max-width: 75px;
+  min-width: 50px;
+}
+
+@media (min-width: 930px) {
+  .div3rev {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ifrev {
+    width: 80%;
+  }
+  .hatic p {
+    font-size: 1.2em;
+  }
+  .divtalk {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .logothc {
+    width: 15%;
+  }
+  .artcontainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .secic2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 5%;
+  }
+  .divacc1 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    margin: 150px;
+  }
+  .h4ind {
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 600px) {
+  .pinrev1 {
+    font-size: 1.3em;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .pindex1 {
+    font-size: 1.3em;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .pdesc {
+    font-size: 1.3em;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .pic1 {
+    font-size: 1.3em;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .hatindex {
+    width: 45%;
+  }
+}
+@media (min-width: 300px) {
+  .hatindex {
+    width: 55%;
+  }
+}
+/* ----------------------------------GENERALS----------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", serif;
+  color: rgb(243, 232, 209);
+}
+
+body {
+  background-color: white;
+  font-size: 32px;
+}
+
+/* ----------------------------------INDEX----------------------------------------- */
+.mainindex {
+  align-content: center;
+  text-align: center;
+}
+
+.hatindex {
+  width: 35%;
+  max-width: 450px;
+}
+
+.h5hat {
+  color: rgb(243, 232, 209);
+  font-size: 1.2em;
+}
+
+.divtalk {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  text-align: center;
+}
+
+.divtalk1 {
+  margin-bottom: 20%;
+  margin-top: 5%;
+}
+
+.h4ind {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 12%;
+  margin-bottom: 10%;
+  font-size: 1.9em;
+  justify-content: center;
+  text-shadow: 3px 3px 3px rgb(15, 15, 15);
+}
+
+.pindex2 {
+  white-space: pre-wrap;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* -----------------------------------iconic styles---------------------------------- */
+.secic2 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  margin: 5%;
+}
+
+.imgic {
+  width: 25%;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 5%;
+}
+
+.hatic {
+  text-align: center;
+  background-color: rgba(37, 18, 0, 0.658);
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+  color: rgb(243, 232, 209);
+}
+.hatic p {
+  margin-top: 3%;
+  font-size: 1em;
+  padding: 3%;
+}
+
+.hatic:hover {
+  transform: scale(1.06);
+}
+
+/* ------------------------------------------REVIEWS---------------------------------------------------- */
+.secrev {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.div3rev {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.divrev {
+  text-align: center;
+  width: 100%;
+}
+
+.boxvid {
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+  background-color: rgba(37, 18, 0, 0.658);
+  margin: 15%;
+  font-weight: bold;
+}
+
+.prev {
+  color: rgb(243, 232, 209);
+  padding: 15px;
+}
+
+.ifrev {
+  width: 80%;
+}
+
+/* ------------------------------------------ACCESORIES------------------------------------------------- */
+.divacc1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.cardbody {
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(131, 74, 22, 0.662745098), rgba(66, 12, 12, 0));
+}
+
+.colbox:hover {
+  transform: scale(1.05);
+}
+
+.colbox {
+  padding: 6%;
+}
+
+.accimg {
+  height: auto;
+  padding: 15%;
+}
+
+.pacc {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #201109;
+}
+
+.ctxt {
+  padding: 20px;
+  color: #4e2816;
+}
+
+/* -----------------------------------------ART GALLERY------------------------------------------------- */
+.artcontainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  justify-items: center;
+  gap: 35px;
+  margin: 15%;
+}
+
+.artimg {
+  width: 75%;
+  box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+  border-radius: 10px;
+  align-items: center;
+  margin: auto;
+}
+
+.divart {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+.partgall {
+  margin-top: 4%;
+  text-transform: uppercase;
+}
+
+/* -----------------------------------------ABOUT US---------------------------------------------------- */
+.pab3 {
+  text-align: center;
+  padding: 100px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.divab4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 5%;
+}
+.divab4 iframe {
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+}
+
+/*# sourceMappingURL=style.css.map */

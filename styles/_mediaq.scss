@@ -1,0 +1,73 @@
+@media (min-width: 930px){
+    .div3rev{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ifrev{
+        width: 80%;
+    }
+    .hatic{
+        p{
+           font-size: 1.2em;
+        }
+    }
+    .divtalk{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .logothc{
+        width: 15%;
+    }
+    .artcontainer{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+}
+@media (min-width: 800px){
+    
+    .secic2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding: 5%;
+    }
+    .divacc1{
+        grid-template-columns: repeat(4, 1fr);      
+        gap: 100px;
+        margin: 150px;
+    }
+    .h4ind{
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 600px){
+    .pinrev1{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .pindex1{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .pdesc{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .pic1{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .hatindex{
+        width: 45%;
+    }
+}
+@media (min-width: 300px){
+    .hatindex{
+        width: 55%;
+    }
+}
