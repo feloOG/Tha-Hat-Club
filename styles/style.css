@@ -266,6 +266,8 @@ footer {
   justify-items: center;
   gap: 35px;
   margin: 15%;
+  color: rgb(243, 232, 209);
+  font-weight: bold;
 }
 
 .artimg {
@@ -298,6 +300,8 @@ footer {
   text-transform: uppercase;
   margin-left: 5%;
   margin-right: 5%;
+  color: rgb(243, 232, 209);
+  font-weight: bold;
 }
 
 .divab4 {

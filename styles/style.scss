@@ -71,7 +71,6 @@
        font-size: 1em;
        padding: 3%;
     }
-
 }
 .hatic:hover{
     transform:scale(1.06);
@@ -154,6 +153,8 @@
     justify-items: center;
     gap: 35px;
     margin: 15%;
+    color: v.$text-color;
+    font-weight: bold;
 }
 .artimg{
     width: 75%; 
@@ -184,6 +185,8 @@
     text-transform: uppercase;
     margin-left: 5%;
     margin-right: 5%;
+    color: v.$text-color;
+    font-weight: bold;
 }
 .divab4{
     display: flex;
@@ -198,6 +201,7 @@
 }
 
 /* -----------------------------MEDIA Q ---------------------------*/
+
 @media (min-width: 930px){
     .div3rev{
         grid-template-columns: repeat(2, 1fr);
