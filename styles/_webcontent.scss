@@ -1,0 +1,300 @@
+@use 'variable' as v;
+
+/* ------------------------ALL PAGES ANIMATION------------ */
+
+@keyframes entradaMain {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .mainindex{
+    animation: entradaMain 0.6s ease-out; 
+  }
+
+/* ----------------------------------INDEX----------------------------------------- */
+
+.mainindex{
+    align-content: center;
+    text-align: center;
+}
+.hatindex{
+    width: 35%;
+    max-width: 450px;
+}
+.h5hat{
+    color: v.$text-color;
+    font-size: 1.2em;
+}
+.divtalk{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    text-align: center;
+}
+.divtalk1{
+    margin-bottom: 20%;
+    margin-top: 5%;
+    color: v.$text-color;
+}
+.h4ind{
+    color: v.$text-color;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    font-size: 1.9em;
+    justify-content: center;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+}
+.pindex2{
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: 1.5em;
+}
+.ifindex:hover{
+    transform:scale(1.10);
+}
+
+/* -----------------------------------iconic styles---------------------------------- */
+
+.secic2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin: 5%;
+}
+.imgic{
+    width: 25%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5%;
+}
+.hatic{
+    text-align: center;
+    background-color: rgba(37, 18, 0, 0.658);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+    color: v.$text-color;
+    p{
+       margin-top: 3%;
+       font-size: 1em;
+       padding: 3%;
+    }
+}
+.hatic:hover{
+    transform:scale(1.06);
+}
+
+/* ------------------------------------------REVIEWS---------------------------------------------------- */
+
+.secrev{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.div3rev{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.divrev{
+    text-align: center;
+    width: 100%;  
+}
+.boxvid{
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+    background-color: rgba(37, 18, 0, 0.658);
+    margin: 15%;
+    font-weight: bold;
+}
+.prev{
+    color: v.$text-color;
+    padding: 15px;
+}
+.ifrev{
+    width: 80%;
+    &:hover{
+        transform:scale(1.06);
+    }
+}
+
+/* ------------------------------------------ACCESORIES------------------------------------------------- */
+
+.divacc1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-content: center;  
+}
+.cardbody{
+    text-align: center;
+    background-image: linear-gradient(to top, #834a16a9, #420c0c00);
+}
+.colbox:hover{
+    transform:scale(1.05);
+}
+.colbox{
+    padding: 6%;
+}
+.accimg{
+    height: auto;
+    padding: 15%;
+}
+.pacc{
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #201109;
+}
+ .ctxt{
+    padding: 20px;
+    color: #4e2816;
+}
+
+/* -----------------------------------------ART GALLERY------------------------------------------------- */
+
+.artcontainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 35px;
+    margin: 15%;
+    color: v.$text-color;
+    font-weight: bold;
+}
+.artimg{
+    width: 75%; 
+    box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+}
+.divart{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+.partgall{
+    margin-top: 4%;
+    text-transform: uppercase;
+}
+.artimg:hover{
+    transform:scale(1.02);
+}
+
+/* -----------------------------------------ABOUT US---------------------------------------------------- */
+
+.pab3{
+    text-align: center;
+    padding: 100px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: v.$text-color;
+    font-weight: bold;
+}
+.divab4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 5%;
+    iframe{
+        margin-bottom: 10%;
+        box-shadow: 0px 0px 30px 3px rgb(0, 0, 0);
+    }
+}
+
+/* -----------------------------MEDIA Q ---------------------------*/
+
+@media (min-width: 930px){
+    .div3rev{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ifrev{
+        width: 80%;
+    }
+    .hatic{
+        p{
+           font-size: 1.2em;
+        }
+    }
+    .divtalk{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .logothc{
+        width: 15%;
+    }
+    .artcontainer{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+}
+@media (min-width: 800px){
+    
+    .secic2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding: 5%;
+    }
+    .divacc1{
+        grid-template-columns: repeat(4, 1fr);      
+        gap: 100px;
+        margin: 150px;
+    }
+    .h4ind{
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 600px){
+    .pinrev1{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .pindex1{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .pdesc{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .pic1{
+        font-size: 1.3em;
+        text-shadow: 3px 3px 3px rgb(15, 15, 15);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .hatindex{
+        width: 45%;
+    }
+}
+@media (min-width: 300px){
+    .hatindex{
+        width: 55%;
+    }
+}
