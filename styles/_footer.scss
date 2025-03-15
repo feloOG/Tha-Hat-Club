@@ -21,4 +21,7 @@ footer{
     width: 15%;
     max-width: 75px;
     min-width: 50px;
+    &:hover{
+        transform:scale(1.30);
+    }
 }
